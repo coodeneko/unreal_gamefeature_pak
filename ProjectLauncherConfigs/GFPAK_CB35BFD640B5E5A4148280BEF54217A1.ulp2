@@ -1,0 +1,125 @@
+{
+	"Version": 36,
+	"Id": "CB35BFD640B5E5A4148280BEF54217A1",
+	"Name": "GFPak",
+	"Description": "",
+	"BuildConfiguration": 3,
+	"ProjectSpecified": true,
+	"ShareableProjectPath": "GameFeaturePakTest/GameFeaturePakTest.uproject",
+	"CookConfiguration": 3,
+	"CookIncremental": false,
+	"CookOptions": "",
+	"CookMode": 1,
+	"CookUnversioned": true,
+	"CookedCultures": [
+		"en"
+	],
+	"CookedPlatforms": [
+		"Windows"
+	],
+	"DeployStreamingServer": false,
+	"DeployWithUnrealPak": true,
+	"DeployedDeviceGroupId": "0840C1AA4DE657822C6706BA83797812",
+	"DeploymentMode": 0,
+	"HideFileServerWindow": false,
+	"LaunchMode": 2,
+	"PackagingMode": 1,
+	"PackageDir": "./LocalBuilds/GFPakPackage/",
+	"BuildMode": 2,
+	"ForceClose": true,
+	"Timeout": 60,
+	"Compressed": true,
+	"EncryptIniFiles": false,
+	"ForDistribution": false,
+	"DeployPlatform": "None",
+	"SkipCookingEditorContent": false,
+	"DeployIncremental": false,
+	"GeneratePatch": false,
+	"AddPatchLevel": false,
+	"StageBaseReleasePaks": false,
+	"DLCIncludeEngineContent": false,
+	"CreateReleaseVersion": false,
+	"CreateReleaseVersionName": "",
+	"BasedOnReleaseVersionName": "BaseGame",
+	"ReferenceContainerGlobalFileName": "",
+	"ReferenceContainerCryptoKeysFileName": "",
+	"OriginalReleaseVersionName": "",
+	"CreateDLC": true,
+	"DLCName": "GFPak",
+	"GenerateChunks": false,
+	"GenerateHttpChunkData": false,
+	"HttpChunkDataDirectory": "",
+	"HttpChunkDataReleaseName": "",
+	"Archive": false,
+	"ArchiveDirectory": "",
+	"AdditionalCommandLineParameters": "",
+	"IncludePrerequisites": false,
+	"UseIoStore": false,
+	"MakeBinaryConfig": false,
+	"BuildTargetSpecified": false,
+	"BuildTargetName": "",
+	"DefaultRole":
+	{
+		"AssignedDevice": "",
+		"CommandLine": "",
+		"DeviceId": "",
+		"InitialCulture": "en",
+		"InitialMapName": "",
+		"Name": "DefaultRole",
+		"InstanceType": 2,
+		"VsyncEnabled": false
+	},
+	"scripts": [
+		{
+			"script": "BuildCookRun",
+			"project": "GameFeaturePakTest/GameFeaturePakTest.uproject",
+			"noP4": true,
+			"nocompile": false,
+			"nocompileeditor": false,
+			"unrealexe": "C:\\Projects\\unreal_gamefeature_pak\\Engine\\Binaries\\Win64\\UnrealEditor-Cmd.exe",
+			"utf8output": true,
+			"clientconfig": [
+				"Development"
+			],
+			"serverconfig": [
+				"Development"
+			],
+			"platform": [
+				"Win64"
+			],
+			"cmdline":
+			{
+				"": "",
+				"messaging": true
+			},
+			"device": [],
+			"addcmdline":
+			{
+				"sessionid": "909CB17D4C70F7D623E53287CA5F8AE3",
+				"sessionowner": "Joel",
+				"sessionname": "GFPak"
+			},
+			"map": [
+				""
+			],
+			"stagingdirectory": "./LocalBuilds/GFPakPackage/",
+			"build": false,
+			"cook": true,
+			"unversionedcookedcontent": true,
+			"pak": true,
+			"dlcname": "GFPak",
+			"generatepatch": false,
+			"basedonreleaseversion": "BaseGame",
+			"stagebasereleasepaks": false,
+			"manifests": false,
+			"iterativecooking": false,
+			"iteratesharedcookedbuild": false,
+			"skipcookingeditorcontent": false,
+			"compressed": true,
+			"EncryptIniFiles": false,
+			"ForDistribution": false,
+			"stage": true,
+			"package": true
+		}
+	]
+}

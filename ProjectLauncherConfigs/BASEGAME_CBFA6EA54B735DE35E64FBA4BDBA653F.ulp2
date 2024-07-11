@@ -1,0 +1,126 @@
+{
+	"Version": 36,
+	"Id": "CBFA6EA54B735DE35E64FBA4BDBA653F",
+	"Name": "BaseGame",
+	"Description": "",
+	"BuildConfiguration": 3,
+	"ProjectSpecified": true,
+	"ShareableProjectPath": "GameFeaturePakTest/GameFeaturePakTest.uproject",
+	"CookConfiguration": 3,
+	"CookIncremental": false,
+	"CookOptions": "",
+	"CookMode": 1,
+	"CookUnversioned": true,
+	"CookedCultures": [
+		"en"
+	],
+	"CookedMaps": [
+		"Entry"
+	],
+	"CookedPlatforms": [
+		"Windows"
+	],
+	"DeployStreamingServer": false,
+	"DeployWithUnrealPak": true,
+	"DeployedDeviceGroupId": "FFD57D6643588195C5A976BAC298AFA5",
+	"DeploymentMode": 0,
+	"HideFileServerWindow": false,
+	"LaunchMode": 2,
+	"PackagingMode": 1,
+	"PackageDir": "./LocalBuilds/BasePackage/",
+	"BuildMode": 1,
+	"ForceClose": true,
+	"Timeout": 60,
+	"Compressed": true,
+	"EncryptIniFiles": false,
+	"ForDistribution": false,
+	"DeployPlatform": "None",
+	"SkipCookingEditorContent": false,
+	"DeployIncremental": false,
+	"GeneratePatch": false,
+	"AddPatchLevel": false,
+	"StageBaseReleasePaks": false,
+	"DLCIncludeEngineContent": false,
+	"CreateReleaseVersion": true,
+	"CreateReleaseVersionName": "BaseGame",
+	"BasedOnReleaseVersionName": "",
+	"ReferenceContainerGlobalFileName": "",
+	"ReferenceContainerCryptoKeysFileName": "",
+	"OriginalReleaseVersionName": "",
+	"CreateDLC": false,
+	"DLCName": "",
+	"GenerateChunks": false,
+	"GenerateHttpChunkData": false,
+	"HttpChunkDataDirectory": "",
+	"HttpChunkDataReleaseName": "",
+	"Archive": false,
+	"ArchiveDirectory": "",
+	"AdditionalCommandLineParameters": "",
+	"IncludePrerequisites": false,
+	"UseIoStore": false,
+	"MakeBinaryConfig": false,
+	"BuildTargetSpecified": false,
+	"BuildTargetName": "",
+	"DefaultRole":
+	{
+		"AssignedDevice": "",
+		"CommandLine": "",
+		"DeviceId": "",
+		"InitialCulture": "en",
+		"InitialMapName": "",
+		"Name": "DefaultRole",
+		"InstanceType": 2,
+		"VsyncEnabled": false
+	},
+	"scripts": [
+		{
+			"script": "BuildCookRun",
+			"project": "GameFeaturePakTest/GameFeaturePakTest.uproject",
+			"noP4": true,
+			"nocompile": false,
+			"nocompileeditor": false,
+			"unrealexe": "C:\\Projects\\unreal_gamefeature_pak\\Engine\\Binaries\\Win64\\UnrealEditor-Cmd.exe",
+			"utf8output": true,
+			"clientconfig": [
+				"Development"
+			],
+			"serverconfig": [
+				"Development"
+			],
+			"platform": [
+				"Win64"
+			],
+			"cmdline":
+			{
+				"": "Entry",
+				"messaging": true
+			},
+			"device": [],
+			"addcmdline":
+			{
+				"sessionid": "B20BF89D4A2E358F740E0887F0EC9698",
+				"sessionowner": "Joel",
+				"sessionname": "BaseGame"
+			},
+			"map": [
+				"Entry"
+			],
+			"stagingdirectory": "./LocalBuilds/BasePackage/",
+			"build": true,
+			"cook": true,
+			"unversionedcookedcontent": true,
+			"pak": true,
+			"createreleaseversion": "BaseGame",
+			"generatepatch": false,
+			"manifests": false,
+			"iterativecooking": false,
+			"iteratesharedcookedbuild": false,
+			"skipcookingeditorcontent": false,
+			"compressed": true,
+			"EncryptIniFiles": false,
+			"ForDistribution": false,
+			"stage": true,
+			"package": true
+		}
+	]
+}
